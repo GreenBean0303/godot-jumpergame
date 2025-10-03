@@ -1,8 +1,8 @@
 extends Interactible
 
-func _on_body_entered(_body: CharacterBody2D) -> void:
-	## kui on vaja säilitada funktsiooni algne loogika, hetkel ei ole.
-	super._on_body_entered(_body)
+signal coin_collected
 
-func _on_interact() -> void:
-	queue_free()
+func _on_body_entered(_body: CharacterBody2D) -> void:
+	if _body.is_in_group("player"):
+		emit_signal("coin_collected")
+		queue_free()
