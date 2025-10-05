@@ -4,7 +4,7 @@ extends CanvasLayer
 
 func _ready():
 	hide()
-	
+
 func show_fact(fact_text: String):
 	label.text = fact_text
 	show()
