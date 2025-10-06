@@ -6,7 +6,7 @@ var voco_facts : Array = [
 	"2024. aastal õppis VOCOs üle 3600 õppija tasemeõppes",
 	"VOCOs saab omandada üle 80 erinevat eriala",
 	"VOCO pakub rahvusvahelist praktikat Erasmus+ programmi raames",
-	"VOCOs on seitse teemakooli: ilukool, ärikool, tehnikakool, ehituskool, IT-kool, toidukool ja turismikool",
+	"VOCO pakub erialasid kaheksast valdkonnast: ehitus, ilu, turism, tehnika, toit, IT, äri ja isikuareng",
 	"VOCO asutati 1922. aastal ja tegutseb juba üle 100 aasta",
 	"Paljud lõpetajad jätkavad õpinguid rakenduskõrgkoolis või ülikoolis",
 	"VOCOs on kaks kaasaegset õpilaskodu",
